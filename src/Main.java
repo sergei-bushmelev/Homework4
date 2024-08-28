@@ -31,26 +31,25 @@ public class Main {
         System.out.println();
 
         //Задача 4
-        int agePerson = 29;
+        int agePerson = 19;
         if (agePerson > 2 && agePerson < 6) {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в детский сад");
         }
-        if (agePerson > 7 && agePerson < 17) {
+         else if (agePerson > 7 && agePerson < 17) {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в школу");
         }
-        if (agePerson >= 18 && agePerson <= 24) {
+        else if (agePerson >= 18 && agePerson <= 24) {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в университет");
-        }
-        if (agePerson > 24) {
+        } else {
             System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить на работу");
         }
 
         //Задача 5
-        int ageChild = 19;
+        int ageChild = 9;
         if (ageChild < 5) {
             System.out.println("Если возраст ребенка равен " + ageChild + ", то ему нельзя кататься на аттракционе");
         }
-        if (ageChild > 5 && ageChild < 14) {
+         else if (ageChild > 5 && ageChild < 14) {
             System.out.println("Если возраст ребенка равен " + ageChild + ", можно кататься на аттракционе в сопровождении взрослого");
         } else {
             System.out.println("Если возраст ребенка равен " + ageChild + ", можно кататься на аттракционе без сопровождении взрослого");
